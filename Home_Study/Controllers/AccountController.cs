@@ -12,7 +12,7 @@ using Home_Study.Models;
 
 namespace Home_Study.Controllers
 {
-    [Authorize]
+    [Authorize(Users ="admin@example.com")]
     public class AccountController : Controller
     {
         private ApplicationSignInManager _signInManager;
