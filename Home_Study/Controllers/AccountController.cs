@@ -10,6 +10,8 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using Home_Study.Models;
 
+
+/* Ensuring the iital commit is correct */
 namespace Home_Study.Controllers
 {
     [Authorize(Users ="admin@example.com")]
